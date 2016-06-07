@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="168.0" prefWidth="319.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="courseprojectcsaw.CourseprojectCSaW">
+  <children>
+    <PasswordField id="password" fx:id="passwordField" layoutX="59.0" layoutY="79.0" prefWidth="200.0" />
+    <TextField id="name" fx:id="nameField" layoutX="59.0" layoutY="35.0" prefWidth="200.0" promptText="" text="" />
+    <Label layoutX="59.0" layoutY="19.0" text="Name" />
+    <Label layoutX="59.0" layoutY="63.0" text="Password" />
+    <Button fx:id="signButton" layoutX="59.0" layoutY="108.0" mnemonicParsing="false" onAction="#signIn" text="Sign in" />
+    <Button fx:id="registerButton" layoutX="195.0" layoutY="108.0" mnemonicParsing="false" onAction="#registerNewUser" text="Register" />
+  </children>
+</AnchorPane>

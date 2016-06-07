@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="249.0" prefWidth="488.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="courseprojectcsaw.GameFieldController">
+  <children>
+    <Separator layoutX="-8.0" layoutY="83.0" prefWidth="394.0" />
+    <Button fx:id="first" layoutX="18.0" layoutY="100.0" mnemonicParsing="false" onAction="#firstClick" prefHeight="49.0" prefWidth="209.0" text="Button" />
+    <Button fx:id="second" layoutX="262.0" layoutY="100.0" mnemonicParsing="false" onAction="#secondClick" prefHeight="49.0" prefWidth="199.0" text="Button" />
+    <Button fx:id="third" layoutX="18.0" layoutY="175.0" mnemonicParsing="false" onAction="#thirdClick" prefHeight="49.0" prefWidth="209.0" text="Button" />
+    <Button fx:id="four" layoutX="262.0" layoutY="175.0" mnemonicParsing="false" onAction="#fourClick" prefHeight="49.0" prefWidth="199.0" text="Button" />
+    <ProgressBar fx:id="progress" layoutX="14.0" layoutY="22.0" prefWidth="460.0" progress="0.0" />
+    <Label fx:id="question" layoutX="18.0" layoutY="45.0" text="Label" />
+    <Label layoutX="227.0" layoutY="6.0" text="Health" />
+  </children>
+</AnchorPane>
